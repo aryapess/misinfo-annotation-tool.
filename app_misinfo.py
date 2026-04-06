@@ -162,9 +162,9 @@ risk_level = st.radio(
 
 misinfo_kind = st.radio(
     "5) Kind of misinformation",
-    ["Satire of Pardoy", "False Connection", "Misleading Content", "False Context", "Imposter Content", "Fabricated Content", "Manipulated Content"],
+    ["Satire or Pardoy", "False Connection", "Misleading Content", "False Context", "Imposter Content", "Fabricated Content"],
     horizontal=True,
-    index=6
+    index=5
 )
 
 
