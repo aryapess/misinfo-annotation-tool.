@@ -9,7 +9,7 @@ import streamlit as st
 st.set_page_config(page_title="Cancer Misinformation Annotation", layout="wide")
 
 # Everything else goes below
-st.title("Annotate JSON 'body'")
+st.title("Cancer Misinformation Annotation")
 
 # -----------------------------
 # Config
