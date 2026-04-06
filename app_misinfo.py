@@ -126,7 +126,7 @@ body_text = row["body"]
 if not isinstance(body_text, str):
     body_text = "" if body_text is None else str(body_text)
 
-st.subheader("Text to annotate (body)")
+st.subheader("Text to annotate")
 st.write(body_text if body_text.strip() else "_(Empty body)_")
 
 st.divider()
