@@ -6,7 +6,7 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="JSON Body Annotation", layout="wide")
+st.set_page_config(page_title="Cancer Misinformation Annotation Task on Reddit Posts", layout="wide")
 
 # -----------------------------
 # Config
