@@ -8,9 +8,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Cancer Misinformation Annotation", layout="wide")
 
-# Everything else goes below
-st.title("Cancer Misinformation Annotation")
-
 # -----------------------------
 # Config
 # -----------------------------
@@ -116,7 +113,7 @@ row = work_df.iloc[st.session_state.idx]
 # -----------------------------
 colA, colB, colC = st.columns([2, 1, 1])
 with colA:
-    st.title("Annotate JSON 'body'")
+    st.title("Cancer Misinformation Annotation")
     st.caption(f"File: {row['file_name']}  |  {st.session_state.idx+1} / {len(work_df)}")
 with colB:
     st.metric("Total", len(data_df))
