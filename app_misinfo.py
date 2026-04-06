@@ -146,6 +146,20 @@ info_behavior = st.radio(
     index=2
 )
 
+cancer_stage = st.radio(
+    "2) Cancer stage",
+    ["Screening", "Treatment", "Unclear or Neither"],
+    horizontal=True,
+    index=2
+)
+
+risk_level = st.radio(
+    "2) Risk Level",
+    ["Low-Risk", "Moderate-Risk", "High-Risk"],
+    horizontal=True,
+    index=2
+)
+
 notes = st.text_input("Optional notes (for yourself)", value="")
 
 # Navigation / save buttons
